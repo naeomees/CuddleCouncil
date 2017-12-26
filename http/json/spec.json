@@ -1,0 +1,1 @@
+{"nodes":["naomee","sam","lauren","charles","river"],"connections":[["naomee","sam","purple"],["naomee","lauren","purple"],["sam","lauren","purple"],["sam","charles","blue"],["lauren","river","blue"]]}

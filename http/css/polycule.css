@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+* {
+  margin: 0px;
+  padding: 0px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed' !important;
+}
+html, body {
+  background: #2d2d29;
+  color: #cbdbd7;
+  font-family: 'Open Sans Condensed';
+  font-size: 1vmax !important;
+}
+canvas {
+  position: relative;
+  display: block;
+  top: 0%;
+  left: 50%;
+  width: 80%;
+  -moz-transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+table {
+  position: fixed;
+  bottom: 0rem;
+  left: 50%;
+  width: 80%;
+  -moz-transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+td {
+  width: 20%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.relRomoMono {
+  background: #52bfff;
+  color: #2d2d29;
+}
+.relRomoPoly {
+  background: #97ff7f;
+  color: #2d2d29;
+}
+.relQPR {
+  background: #995de8;
+  color: #fff;
+}
+.relFWB {
+  background: #ff5757;
+  color: #fff;
+}
+.relDev {
+  background: #e8a241;
+  color: #2d2d29;
+}

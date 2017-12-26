@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby 
+$:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+%w[specification dot].map &method(:require)
+
+spec = Specification.new Dot.new(ARGV.first)
+puts spec.to_json

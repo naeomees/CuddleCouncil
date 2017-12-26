@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Polycule</title>
+    <link rel="stylesheet" type="text/css" href="css/polycule.css" media="screen" />
+    <script src="js/polycule.js"></script>
+    <script src="js/net.js"></script>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <noscript>
+      <img src="img/polycule.svg"/>
+    </noscript>
+    <canvas id="polycule"></canvas>
+    <div id="legend"></div>
+    <script>
+      document.querySelector("div#legend").innerHTML = get('legend.html');
+      var spec = JSON.parse(get('json/spec.json'));
+      polycule(spec);
+    </script>
+  </body>
+</html>

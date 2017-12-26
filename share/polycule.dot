@@ -1,0 +1,25 @@
+graph polycule {
+  naomee [label="Naomee"]
+  sam [label="Sam"]
+  lauren [label="Lauren"]
+  charles [label="Charles"]
+  river [label="River"]
+  naomee -- sam [color=purple]
+  naomee -- lauren [color=purple]
+  sam -- lauren [color=purple]
+  sam -- charles [color=blue]
+  lauren -- river [color=blue]
+  { rank = sink;
+    Legend [shape=none, label=<
+      <table>
+        <tr>
+          <td class="relRomoMono">Romantic (Mono)</td>
+          <td class="relRomoPoly">Romantic (Poly)</td>
+          <td class="relQPR">Queerplatonic</td>
+          <td class="relFWB">Friends With Benefits</td>
+          <td class="relDev">Developing</td>
+        </tr>
+      </table>
+    >];
+  }
+}
