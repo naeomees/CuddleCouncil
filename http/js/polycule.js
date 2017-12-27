@@ -98,7 +98,6 @@ var polycule = function(spec) {
     var NODES = spec.nodes.map(function(name, i) {
         var n = new Node(ctx, name)
 
-        // n.setPosition(Math.random() * dims[0], Math.random() * dims[1]).
         n.setPosition((dims[0]) / 5 * (i % 5), (dims[1]) / 5 * (i / 5))
 
         return n
