@@ -4,11 +4,13 @@ graph polycule {
   lauren [label="Lauren"]
   charles [label="Charles"]
   river [label="River"]
+  aj [label="AJ"]
   naomee -- sam [color=purple]
   naomee -- lauren [color=purple]
   sam -- lauren [color=purple]
   sam -- charles [color=blue]
   lauren -- river [color=blue]
+  naomee -- aj [color=green]
   { rank = sink;
     Legend [shape=none, label=<
       <table>
