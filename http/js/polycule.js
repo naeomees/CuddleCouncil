@@ -38,7 +38,7 @@ var polycule = function(spec) {
     Node.prototype.draw = function() {
         drawEllipseByCenter(this.ctx, this.x, this.y, this.width * 1.2, this.height)
 
-        this.ctx.fillText(this.name.substr(0, 1).toUpperCase() + this.name.substr(1), this.x, this.y, this.width)
+        this.ctx.fillText(this.name, this.x, this.y, this.width)
     }
 
     Node.prototype.setPosition = function(x, y) {
@@ -80,7 +80,7 @@ var polycule = function(spec) {
     }
 
     function capitalize(x) {
-        return x[0].toUpperCase() + x.slice(1)
+        return x.substr(0, 1).toUpperCase() + x.substr(1)
     }
 
     var ctx = document.getElementById('polycule').getContext('2d')
