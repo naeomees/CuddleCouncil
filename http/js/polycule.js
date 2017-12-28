@@ -55,18 +55,6 @@ var polycule = function(spec) {
     function drawConnection(a, b, color) {
         var ctx = a.ctx
 
-        if(color == 'blue') {
-          color = '#52bfff';
-        } else if (color == 'green') {
-          color == '#97ff7f';
-        } else if (color == 'purple') {
-          color = '#995de8';
-        } else if (color == 'red') {
-          color = '#ff5757';
-        } else if (color == 'orange') {
-          color = '#e8a241';
-        }
-
         ctx.strokeStyle = color
         ctx.beginPath()
 
