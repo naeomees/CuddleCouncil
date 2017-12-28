@@ -128,7 +128,7 @@ var polycule = function(spec) {
         // javascript implementation based on http://stevehanov.ca/blog/index.php?id=65
 
         // C limits the speed of the movement. Things become slower over time.
-        var C = Math.log( frame+1 )*100;
+        var C = Math.log(frame + 1) * 100;
         frame++;
 
         // Calculate repulsive forces.
@@ -147,7 +147,7 @@ var polycule = function(spec) {
                 var Dy = v.y - u.y
                 var len = Math.sqrt(Dx*Dx+Dy*Dy) // distance
 
-                if ( len == 0 ) return // do not divide by zero
+                if (len == 0) return // do not divide by zero
 
                 var mul = k * k / (len*len * C)
 
@@ -164,7 +164,7 @@ var polycule = function(spec) {
             var Dy = e[0].y - e[1].y
             var len = Math.sqrt(Dx * Dx + Dy * Dy) // distance.
 
-            if ( len == 0 ) return // do not divide by zero
+            if (len == 0) return // do not divide by zero
 
             var mul = len * len / k / C
             var Dxmul = Dx * mul
@@ -185,7 +185,7 @@ var polycule = function(spec) {
 
             if (frame > 20) max = 2.0;
 
-            if ( len > max ) {
+            if (len > max) {
                 len = Math.pow( len, 0.5 );
                 v.vx *= max / len;
                 v.vy *= max / len;
