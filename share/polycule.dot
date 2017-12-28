@@ -5,14 +5,18 @@ graph polycule {
   charles [label="Charles"]
   river [label="River"]
   aj [label="AJ"]
+  chris [label="Chris"]
   oliver [label="Oliver"]
+  rui [label="Rui"]
   naomee -- sam [color=plum]
   naomee -- lauren [color=plum]
   sam -- lauren [color=plum]
   sam -- charles [color=skyblue]
   lauren -- river [color=skyblue]
   naomee -- aj [color=palegreen]
+  aj -- chris [color=skyblue]
   naomee -- oliver [color=sandybrown]
+  oliver -- rui [color=plum]
   { rank = sink;
     Legend [shape=none, label=<
       <table>
