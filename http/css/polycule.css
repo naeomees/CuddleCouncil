@@ -35,27 +35,23 @@ table {
 td {
   width: 20%;
   padding: 0.5rem;
+  color: #2d2d29;
   font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
 }
 .relRomoMono {
   background: skyblue;
-  color: #2d2d29;
 }
 .relRomoPoly {
   background: palegreen;
-  color: #2d2d29;
 }
 .relQPR {
   background: plum;
-  color: #fff;
 }
 .relFWB {
   background: tomato;
-  color: #fff;
 }
 .relDev {
   background: sandybrown;
-  color: #2d2d29;
 }
