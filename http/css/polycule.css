@@ -40,22 +40,22 @@ td {
   text-align: center;
 }
 .relRomoMono {
-  background: #52bfff;
+  background: skyblue;
   color: #2d2d29;
 }
 .relRomoPoly {
-  background: #97ff7f;
+  background: palegreen;
   color: #2d2d29;
 }
 .relQPR {
-  background: #995de8;
+  background: plum;
   color: #fff;
 }
 .relFWB {
-  background: #ff5757;
+  background: tomato;
   color: #fff;
 }
 .relDev {
-  background: #e8a241;
+  background: sandybrown;
   color: #2d2d29;
 }

@@ -5,21 +5,21 @@ graph polycule {
   charles [label="Charles"]
   river [label="River"]
   aj [label="AJ"]
-  naomee -- sam [color=purple]
-  naomee -- lauren [color=purple]
-  sam -- lauren [color=purple]
-  sam -- charles [color=blue]
-  lauren -- river [color=blue]
-  naomee -- aj [color=green]
+  naomee -- sam [color=plum]
+  naomee -- lauren [color=plum]
+  sam -- lauren [color=plum]
+  sam -- charles [color=skyblue]
+  lauren -- river [color=skyblue]
+  naomee -- aj [color=palegreen]
   { rank = sink;
     Legend [shape=none, label=<
       <table>
         <tr>
-          <td class="relRomoMono">Romantic (Mono)</td>
-          <td class="relRomoPoly">Romantic (Poly)</td>
-          <td class="relQPR">Queerplatonic</td>
-          <td class="relFWB">Friends With Benefits</td>
-          <td class="relDev">Developing</td>
+          <td class="relRomoMono" bgcolor="skyblue">Romantic (Mono)</td>
+          <td class="relRomoPoly" bgcolor="palegreen">Romantic (Poly)</td>
+          <td class="relQPR" bgcolor="plum">Queerplatonic</td>
+          <td class="relFWB" bgcolor="tomato">Friends With Benefits</td>
+          <td class="relDev" bgcolor="sandybrown">Developing</td>
         </tr>
       </table>
     >];
