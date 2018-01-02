@@ -24,9 +24,17 @@ graph polycule {
       <table>
         <tr>
           <td class="relRomoMono" bgcolor="skyblue">Romantic (Mono)</td>
+        </tr>
+        <tr>
           <td class="relRomoPoly" bgcolor="palegreen">Romantic (Poly)</td>
+        </tr>
+        <tr>
           <td class="relQPR" bgcolor="plum">Queerplatonic</td>
+        </tr>
+        <tr>
           <td class="relFWB" bgcolor="tomato">Friends With Benefits</td>
+        </tr>
+        <tr>
           <td class="relDev" bgcolor="sandybrown">Developing</td>
         </tr>
       </table>
