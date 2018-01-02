@@ -19,6 +19,9 @@ canvas {
   top: 0%;
   width: 80%;
 }
+table {
+  width: 100%;
+}
 td {
   padding: 0.5rem;
   color: #2d2d29;
