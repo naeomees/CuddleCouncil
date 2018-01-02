@@ -11,7 +11,10 @@
       <img src="img/polycule.svg"/>
     </noscript>
     <canvas id="polycule"></canvas>
-    <div id="legend"></div>
+    <div id="sidebar">
+      <h2>Legend</h2>
+      <div id="legend"></div>
+    </div>
     <script>
       document.querySelector("div#legend").innerHTML = get('legend.html');
       var spec = JSON.parse(get('json/spec.json'));

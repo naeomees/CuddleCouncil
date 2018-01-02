@@ -14,29 +14,26 @@ html, body {
   font-size: 1vmax !important;
 }
 canvas {
-  position: relative;
-  display: block;
+  position: absolute;
+  display: inline;
   top: 0%;
-  left: 50%;
   width: 80%;
-  -moz-transform: translate(-50%, 0%);
-  -webkit-transform: translate(-50%, 0%);
-  transform: translate(-50%, 0%);
-}
-table {
-  position: fixed;
-  bottom: 0rem;
-  left: 50%;
-  width: 80%;
-  -moz-transform: translate(-50%, 0%);
-  -webkit-transform: translate(-50%, 0%);
-  transform: translate(-50%, 0%);
 }
 td {
-  width: 20%;
   padding: 0.5rem;
   color: #2d2d29;
   font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+#sidebar {
+  position: absolute;
+  display: inline;
+  top: 0%;
+  left: 80%;
+  width: 20%;
+}
+#sidebar h2 {
   text-transform: uppercase;
   text-align: center;
 }
