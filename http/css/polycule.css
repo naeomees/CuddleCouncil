@@ -44,8 +44,12 @@ td {
   padding: 0.5rem;
 }
 #sidebar h2 {
+  padding-top: 0.5rem;
   text-transform: uppercase;
   text-align: center;
+}
+#sidebar h2:first-child {
+  padding-top: 0rem;
 }
 .relRomoMono {
   background: skyblue;
