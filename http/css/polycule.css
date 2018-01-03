@@ -56,7 +56,11 @@ td {
   background: sandybrown;
 }
 
-@media screen and (max-width: 980px) {
-  canvas { position: relative; display: block; width: 100%; }
-  #sidebar { position: relative; display: block; width: 100%; }
+
+@media screen and (orientation: portrait) and (max-width: 1200px) {
+  body { font-size: 2vmax !important; }
+  canvas { position: relative !important; display: block; width: 100% !important; }
+  td { font-size: 2rem; }
+  #sidebar { position: relative !important; display: block; left: 0%; width: 100% !important; }
 }
+
