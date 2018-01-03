@@ -55,3 +55,8 @@ td {
 .relDev {
   background: sandybrown;
 }
+
+@media screen and (max-width: 980px) {
+  canvas { position: relative; display: block; width: 100%; }
+  #sidebar { position: relative; display: block; width: 100%; }
+}
