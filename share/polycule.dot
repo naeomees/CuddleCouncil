@@ -11,7 +11,7 @@ graph polycule {
   lauren -- river [color=skyblue]
   naomee -- aj [color=palegreen]
   aj -- chris [color=skyblue]
-  naomee -- oliver [color=sandybrown]
+  naomee -- oliver [color=palegreen]
   oliver -- rui [color=plum]
   naomee -- rose [color=sandybrown]
   { rank = sink;
